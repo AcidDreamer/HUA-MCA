@@ -22,7 +22,7 @@ input [`SLOT_SIZE-1:0]           Data_IN;
 output[`SLOT_SIZE-1:0]           FIFO_Data_Out;                  
 //32-bit για την είσοδο και έξοδο των δεδομένων
 output                FIFO_Empty, FIFO_Full,FIFO_Last;      
-//FIFO empty και full που ζητήθηκε 
+//FIFO empty,last και full που ζητήθηκε 
 reg[`SLOTS :0] fifo_counter;             
 //Μετρητής θέσεων στην ουρά
 reg[`SLOT_SIZE-1:0]             FIFO_Data_Out;
